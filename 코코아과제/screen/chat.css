@@ -1,0 +1,23 @@
+.chat, .chat-question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.chat {
+    margin-bottom: 500px;
+    }
+    
+.chat-chat {
+    background-color: rosybrown;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}    
+
+.chat-chat > input:first-child {
+    width: 250px;
+    height: 50px;
+    border: none;
+}

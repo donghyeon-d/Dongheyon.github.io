@@ -1,0 +1,39 @@
+body {
+ background : linear-gradient(blue, pink);
+}
+
+.main, .main-logo,.main-discription{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main {
+    margin-top : 50px;
+    margin-bottom : 80px;
+}
+
+.main-logo {
+    margin-bottom:30px;
+}
+
+.main-logo__img > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.main-logo__img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px white;
+    margin-bottom : 30px;
+}
+
+.main-logo__name {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.main-discription {
+ padding: 0px 10%;
+}
